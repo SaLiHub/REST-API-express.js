@@ -1,0 +1,28 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest api example",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaLiHub/Rest-api-example.git"
+  },
+  "author": "Oleksandr Lishchynskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaLiHub/Rest-api-example/issues"
+  },
+  "homepage": "https://github.com/SaLiHub/Rest-api-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
